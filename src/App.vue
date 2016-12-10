@@ -113,6 +113,7 @@ export default {
         paginationClickable :true,
         scrollbar:'.swiper-scrollbar',
         mousewheelControl : true,
+        keyboardControl : true,
         observeParents:true,
         debugger: true,
         onInit(swiper){
