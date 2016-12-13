@@ -118,14 +118,14 @@ export default {
         debugger: true,
         onInit(swiper){
           // Update view more link on init
-          var linkEl = document.getElementById('movie-link');
-          var index = swiper.activeIndex;
+          const linkEl = document.getElementById('movie-link');
+          const index = swiper.activeIndex;
           linkEl.href = movies.popular[index].link;
         },
         onSlideChangeEnd(swiper){
           // Update view more link on slide transition
-          var linkEl = document.getElementById('movie-link');
-          var index = swiper.activeIndex;
+          const linkEl = document.getElementById('movie-link');
+          const index = swiper.activeIndex;
           linkEl.href = movies.popular[index].link;
         },
       }
