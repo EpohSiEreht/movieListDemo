@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-var AwesomeSwiper = require('vue-awesome-swiper');
+const AwesomeSwiper = require('vue-awesome-swiper');
 
 
 // global use
